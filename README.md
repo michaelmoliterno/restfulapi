@@ -1,3 +1,5 @@
+## Skeleton borrowed from https://github.com/alyssaq/flask-restful-api-appengine
+
 ## Test API
 
     $ curl -H "Content-Type: application/json" -X POST -d '{"tweet_id":"12345","tweet_text":"DsA is vnice"}' http://localhost:8080/api/tweets
@@ -43,9 +45,6 @@ See the README file for directions. You'll need python 2.7 and [pip 1.4 or later
    dev_appserver.py . --skip_sdk_update_check=yes
 ```
 
-Visit the application at <http://localhost:8080>
-
-See [the development server documentation](https://cloud.google.com/appengine/docs/python/tools/devserver) for options when running dev_appserver.
 
 ## Deploy
 To deploy the application:
